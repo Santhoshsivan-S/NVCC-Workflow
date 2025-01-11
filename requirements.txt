@@ -1,4 +1,5 @@
 dnspython==2.6.1
 protobuf==3.20.3
 pymongo==4.7.3
+streamlit-authenticator==0.4.1
 webencodings==0.5.1
