@@ -20,7 +20,7 @@ def newQueryTemplate(name,paraphrase,apology, assurance, askToTrySteps, troubles
         askToTryStepsStatement = "\nPlease try the following steps and let me know the results:\n"
     else:
         askToTryStepsStatement = ""
-    responses = f"Hello,\n\nThank you for contacting NVIDIA Customer Care. This is {name}, and I'll be answering your Query.\n\nFrom the description, I understand that {paraphrase}{apologyStatement} {assuranceStatement}{askToTryStepsStatement}{troubleshooting}\nIf there are any questions or concerns, feel free to contact me.\n\nBest Regards,\n{name}\nNVIDIA Customer Care"
+    responses = f"Hello,\n\nThank you for contacting NVIDIA Customer Care. This is {name}, and I'll be answering your Query.\n\nFrom the description, I understand that {paraphrase}\n{apologyStatement} {assuranceStatement}{askToTryStepsStatement}\n{troubleshooting}\nIf there are any questions or concerns, feel free to contact me.\n\nBest Regards,\n{name}\nNVIDIA Customer Care"
 
     return responses
 
