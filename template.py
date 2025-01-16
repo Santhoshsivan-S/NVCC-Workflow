@@ -65,7 +65,7 @@ def newtroubleshootingtemplate(name,paraphrase,apology, assurance, askToTrySteps
     else:
         expectingreplyStatement = ""
 
-    responses = f"Hello,\n\nThank you for contacting NVIDIA Customer Care. This is {name}, and I'll be assisting with the issue you are experiencing.\n\nFrom the description, I understand that {paraphrase}\n{apologyStatement} {assuranceStatement}\n{askToTryStepsStatement}{troubleshooting}{persistsStatement}{questionsStatement}{escalationStatement}{probingQuestions}\n{info_request}{expectingreplyStatement}If there are any questions or concerns, feel free to contact me.\n\nBest Regards,\n{name}\nNVIDIA Customer Care"
+    responses = f"Hello,\n\nThank you for contacting NVIDIA Customer Care. This is {name}, and I'll be assisting with the issue you are experiencing.\n\nFrom the description, I understand that {paraphrase}\n{apologyStatement} {assuranceStatement}\n{askToTryStepsStatement}{troubleshooting}\n{persistsStatement}{questionsStatement}{escalationStatement}{probingQuestions}\n{info_request}{expectingreplyStatement}If there are any questions or concerns, feel free to contact me.\n\nBest Regards,\n{name}\nNVIDIA Customer Care"
     return responses
 
 
