@@ -139,7 +139,7 @@ if st.session_state['authentication_status']:
             requestinfo = st.multiselect("Request Information", list_info_names())
             request_information_block = st.text_area("Requested Information", get_info(requestinfo))
             expectingreply = st.checkbox("Expecting Reply",
-                                         help="Please take your time and let me know the results at your earliest convenience.")
+                                         help="Please take your time and let me know the results at your earliest convenience." ,value = True)
 
             return message_block, presistant, escalationStatement, probingStatement, selectedprobingQuestions, request_information_block, expectingreply
 
