@@ -29,6 +29,15 @@ if not os.path.exists(file_path):
                     'password': '$2b$12$YdetO4BKPfrYI6juawfYp.t89abBXt0QOFJnMiiL.8ZrlM2DddRKu',
                     'password_hint': 'Suhail',
                     'roles': ['User']
+                },
+'ftasneem@nvidia.com': {
+                    'email': 'ftasneem@nvidia.com',
+                    'first_name': 'Faiza',
+                    'last_name': 'Tasneem',
+                    'logged_in': False,
+                    'password': '$2b$12$YdetO4BKPfrYI6juawfYp.t89abBXt0QOFJnMiiL.8ZrlM2DddRKu',
+                    'password_hint': 'Suhail',
+                    'roles': ['User']
                 }
             }
         },
